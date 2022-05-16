@@ -13,9 +13,9 @@ lt0 = soup.find('input',attrs={'name':'lt'})['value']
 execution0 = soup.find('input',attrs={'name':'execution'})['value']
 
 post_data={
-    'username': '',#学号
-    'password': '',#密码
-    'channelshow': '中国移动',#中国移动，中国电信
+    'username': '202021116027',#学号
+    'password': 'zhu2021.',#密码
+    'channelshow': '中国电信',#中国移动，中国电信
     'channel': '@cmcc',
     'lt': lt0,
     'execution': execution0,
